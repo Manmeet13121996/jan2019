@@ -1,0 +1,5 @@
+a = open("/home/msys/Desktop/estfile", "r+")
+obj1 = a.read()
+obj2= obj1.split()
+myset = set(obj2)
+print (len(myset), myset)
